@@ -1,6 +1,6 @@
 # EphineaFixer v1.5d (03/03/2022)
 
-This is an unofficial Powershell GUI script to assist with troubleshooting Phantasy Star Online Ephinea launch issues on Windows 10.
+This is an unofficial Powershell GUI script to assist with troubleshooting Phantasy Star Online Ephinea launch issues on Windows 10. UI design based on the official Ephinea launcher.
 
 
 **Usage**:
