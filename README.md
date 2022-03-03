@@ -4,7 +4,7 @@ This is an unofficial Powershell GUI script to assist with troubleshooting Phant
 
 
 **Usage**:
-- Save anywhere. Right-click and "Run With Powershell". 
+- Save anywhere. Right-click and "Run With Powershell"
 - On launch, will automatically check for some game breaking settings (full list of fixes below), offers fix with Yes/No dialog
 - Click "AUTO WHITELIST" to exclude the EphineaPSO folder from Windows Defender, exclude psobb.exe from Windows DEP and prompt user to set psobb.exe to High Priority
 - If "AUTO WHITELIST" is disabled: click "MANUAL WHITELIST" and navigate to your EphineaPSO install directory to perform above "AUTO WHITELIST" changes
