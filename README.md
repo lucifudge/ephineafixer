@@ -2,13 +2,18 @@
 
 This is an unofficial Powershell GUI script to assist with troubleshooting Phantasy Star Online Ephinea launch issues on Windows 10. UI design based on the official Ephinea launcher.
 
-
 **Usage**:
 - Save anywhere. Right-click and "Run With Powershell"
 - On launch, will automatically check for some game breaking settings (full list of fixes below), offers fix with Yes/No dialog
-- Click "AUTO WHITELIST" to exclude the EphineaPSO folder from Windows Defender, exclude psobb.exe from Windows DEP and prompt user to set psobb.exe to High Priority
-- If "AUTO WHITELIST" is disabled: click "MANUAL WHITELIST" and navigate to your EphineaPSO install directory to perform above "AUTO WHITELIST" changes
+- Click _AUTO WHITELIST_ to exclude the EphineaPSO folder from Windows Defender, exclude psobb.exe from Windows DEP and prompt user to set psobb.exe to High Priority
+- _MANUAL WHITELIST_ allows manual selection of your EphineaPSO install directory (performs all _AUTO WHITELIST_ changes)
+
+![1](https://user-images.githubusercontent.com/13704242/156550759-fed661aa-d039-447c-a574-132b62ec04e4.png)
+
 - "VIEW EXCLUSIONS" provides a list of your computer's Windows Defender and DEP exclusions, ephinea.dll presence, and button for copying full diagnostics to clipboard
+
+![2](https://user-images.githubusercontent.com/13704242/156550760-8dfb10ac-6a14-4bfb-a32b-a523f1d72497.png)
+
 
 ---
 **Game Launch fixes**:
@@ -32,6 +37,6 @@ This is an unofficial Powershell GUI script to assist with troubleshooting Phant
 
 **Clipboard Diagnostics**:
 - Copies various system and game settings to clipboard for troubleshooting (in multiline code block wrapper), including:
-  ephinea.dll presence, OS version, Defender exclusions, DEP exclusions, UAC status, name of AV installed, screensaver status, PSOBB.exe CPU priority, classic/fullscreen/windowed status, advanced effect and IME status
+  - ephinea.dll presence, OS version, Defender exclusions, DEP exclusions, UAC status, name of AV installed, screensaver status, PSOBB.exe CPU priority, classic/fullscreen/windowed status, advanced effect and IME status
   
   
